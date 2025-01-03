@@ -1,16 +1,18 @@
-public class Car {
-    String make;
-    String model;
+package MyPackage;
 
-    void startEngine() {
+public class Car {
+    public String make;
+    public String model;
+
+    public void startEngine() {
         System.out.println("Engine of " + make + " " + model + " started");
     }
-    Car(){}
-    Car(String make, String model){
+    public  Car(){}
+    public Car(String make, String model){
         this.make = make;
         this.model = model;
     }
-    double kwToHp(int kw) {
+    public double kwToHp(int kw) {
         double hp = kw / 0.74;
         return hp;
     }

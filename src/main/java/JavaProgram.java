@@ -1,3 +1,6 @@
+
+import MyPackage.Car;
+
 public class JavaProgram {
     public static void main(String[] args) {
 
