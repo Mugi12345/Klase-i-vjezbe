@@ -1,5 +1,5 @@
-
-import MyPackage.Car;
+import MyPackage.*;
+import YourPackage.*;
 
 public class JavaProgram {
     public static void main(String[] args) {
@@ -27,4 +27,6 @@ public class JavaProgram {
         System.out.println("Konjska snaga Mercedesa je: " + horsePower2);
 
     }
+    MyPackage.MyClass myClass = new MyPackage.MyClass();
+    YourPackage.MyClass myClass2 = new YourPackage.MyClass();
 }
